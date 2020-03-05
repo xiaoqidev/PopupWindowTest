@@ -1,0 +1,2 @@
+rootProject.name='PopupWindowTest'
+include ':app'

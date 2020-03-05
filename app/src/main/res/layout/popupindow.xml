@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="100dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/pop_computer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:text="计算机"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"/>
+
+    <TextView
+        android:id="@+id/pop_financial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:text="金融"/>
+    <TextView
+        android:id="@+id/pop_manage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="管理"/>
+
+</LinearLayout>
